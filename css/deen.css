@@ -421,11 +421,12 @@ button:focus:not(:focus-visible) {
   grid-gap: 20px;
 }
 
-
 .wallpaper {
   width: 15%;
   height: auto;
 }
+
+
 
 .wallpaper-grid .wallpaper {
   width: 70%;
@@ -467,7 +468,6 @@ button:focus:not(:focus-visible) {
   text-align: center;
   display: none;
 }
-
 
 
 /*---------------------------------------
@@ -600,7 +600,7 @@ button:focus:not(:focus-visible) {
   .popup {
     display: none;
     position: fixed;
-    top: 5%;
+    top: 8%;
     left: 0;
     width: 100%;
     height: 100%;

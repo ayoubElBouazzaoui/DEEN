@@ -35,8 +35,6 @@ const images = [
   { src: "images/al-oemma.png", alt: "image 1" },
   { src: "images/Youssef_El_Yaghmouri.png", alt: "image 2" },
   { src: "images/Youssef_DOel_Bereikt.png", alt: "image 3" },
-  { src: "images/Lluka_menu_flyer.png", alt: "image 4" },
-  { src: "images/ijs.png", alt: "image 5" }
 ];
 
 // Get the container element where the images will be added
@@ -107,7 +105,9 @@ wallpapers.forEach(wallpaper => {
   downloadButton.href = wallpaper.dataset.downloadUrl;
   downloadButton.download = true;
 
-  wallpaper.parentNode.appendChild(downloadButton);
+  wallpaper.insertAdjacentElement('afterend', downloadButton);
+
+
 });
 
 
