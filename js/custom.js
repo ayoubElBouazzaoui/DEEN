@@ -24,7 +24,8 @@
       "images/slide/slide2.png",
       "images/slide/slide3.png",
       "images/slide/slide4.png",
-      "images/slide/slide5.png"
+      "images/slide/slide5.png",
+      "images/slide/slide6.png",
     ],  {duration: 1000, fade: 750});
     
   })(window.jQuery);
