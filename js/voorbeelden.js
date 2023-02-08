@@ -2,9 +2,12 @@
 
  // Create an array of image objects
  const images = [
-    { src: "images/al-oemma.png", alt: "image 1" },
-    { src: "images/trouwkaart.png", alt: "image 2" },
-    { src: "images/Youssef_El_Yaghmouri.png", alt: "image 3" },
+    { src: "images/voorbeeld1.png", alt: "image 1" },
+    { src: "images/voorbeeld2.png", alt: "image 2" },
+    { src: "images/voorbeeld3.png", alt: "image 3" },
+    { src: "images/voorbeeld4.jpg", alt: "image 4" },
+    { src: "images/voorbeeld5.png", alt: "image 5" },
+    { src: "images/voorbeeld6.png", alt: "image 6" }
   ];
   
   // Get the container element where the images will be added
