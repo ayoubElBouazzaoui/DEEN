@@ -352,5 +352,14 @@ Waypoints
   .custom-form button { display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
   .custom-form button:hover, .ignite-btn:focus { color: #2747b9; border: solid 1px #2747bb; }
 
+  @media only screen and (max-width: 768px) {
+	.intro img {
+	  width: 100%;
+	  max-width: 300px;
+	  height: auto;
+	}
+  }
+  
+
   
   
